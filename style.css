@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?failmy=Poppins:400,500,700');
+
+html{
+    box-sizing: border-box;
+    		margin:0;
+		padding:0;
+		height:100%;
+}
+
+.home-section1{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(image/background.jpg);
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    min-height: 100vh;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: #D6C317;
+    text-decoration: none;
+}
+
+.logo-name{
+    margin-left: 1rem;
+    font-size:1.5em;
+    
+}
+
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a{
+    color: #D6C317;
+    text-decoration: none;
+    padding: 1rem;
+     font-size:1.5em;
+}
+
+.main-nav a:hover{
+    color: gray;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.text-btn{
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    color: #D6C317;
+}
+
+.just-text{
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    color: #D6C317;
+}
+
+.btn{
+    color: #1EA5AD;
+    background-color: #D6C317;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.5em;    
+}
+.btn:hover{
+    color: black;
+}
+.main-footer{
+    background-color: #D6C317;
+    bottom:0;
+   position: absolute;
+    width:100%;
+    height: 7%;
+    
+}
+
+.footer-main ul{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+     font-size:1.5em;
+}
+
+
+.howit-title{
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 1rem;
+    margin-top: 13rem;
+    margin-right: 1em;
+    color: #D6C317;
+}
+
+.howit-text{
+    margin-top: 7rem;
+    background-color: #D6C317;
+    color: black;
+    font-size: 2em;
+    padding: 1em;
+    margin-left: 2rem;
+    border-radius: 50px;
+}
+
+.map-title{
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    color: #D6C317;
+}
+
+.map{
+    margin-top: 3rem;
+    background-color: #D6C317;
+    color: black;
+    font-size: 1em;
+    padding: 1em;
+    margin-left: 2rem;
+    border-radius: 50px;
+}
+
+.galery-title{
+    font-weight: 700;
+    font-size: 4em;
+    margin-bottom: 1rem;
+    margin-top: 15rem;
+    margin-right: 4rem;
+    color: #D6C317;
+}
+
+.galery-content{
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.contact-customer{
+    margin-top: 9rem;
+    background-color: #D6C317;
+    color: black;
+    font-size: 1em;
+    padding: 2em;
+    margin-right: 4rem;
+    border-radius: 50px;
+}
+
+.contact-buisnes{
+    margin-top: 9rem;
+    background-color: #D6C317;
+    color: black;
+    font-size: 1em;
+    padding: 2em;
+    margin-left: 4rem;
+    border-radius: 50px;
+}
+
+.contact-buisnes a{
+    font-size: 1em;
+}
+
+
+
+.css_anchor_gallery {
+width: 760px;    
+overflow: hidden;
+padding: 20px 0;
+}
+.css_anchor_gallery .pictures_ {
+list-style-type: none;
+height: 460px;
+width: 540px;
+overflow: hidden;
+float: right;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.css_anchor_gallery .pictures_ li {
+margin: 0;
+padding: 20px 0 20000px 0;
+background: none;
+}
+.css_anchor_gallery .pictures_ li p {
+padding: 0 20px;
+}
+.css_anchor_gallery img {
+border: 1px solid #000;
+}
+.css_anchor_gallery .thumbnails_ {
+list-style-type: none;
+width: 180px;
+overflow: auto;
+height: 440px;
+float: left;
+padding: 0;
+margin: 20px 0 0 20px;
+}
+.css_anchor_gallery .thumbnails_ li {
+margin: 5px 0;
+background: none;
+padding: 0;
+}
+.css_anchor_gallery .thumbnails_ li:first-child {
+margin: 0 0 5px 0;    
+}
+.css_anchor_gallery a {
+display: block;
+width: 152px;
+height: 152px;
+}
+.css_anchor_gallery a img {
+height: 150px;
+width: 150px;
+margin: 0;
+}
